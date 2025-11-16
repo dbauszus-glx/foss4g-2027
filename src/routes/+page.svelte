@@ -191,6 +191,7 @@
             target="_blank">AUT City Campus</a
           > is within minutes of the central business district, has excellent public transport and accommodation
           options.
+          Coordinates: -36.853388, 174.765877
         </div>
       </Card>
     </div>
