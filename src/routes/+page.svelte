@@ -191,7 +191,7 @@
             target="_blank">AUT City Campus</a
           > is within minutes of the central business district, has excellent public transport and accommodation
           options.
-          Coordinates: -36.853388, 174.765877
+          Address: <a href="https://www.google.com/maps/place/-36.853388,174.765877" target="_blank">WG Building 2 Governor Fitzroy Place, Auckland</a>
         </div>
       </Card>
     </div>
