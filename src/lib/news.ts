@@ -1,5 +1,11 @@
 export default [
   {
+    date: '17th November 2025',
+    title: 'Welcome to FOSS4G 2025!',
+    content: `Here we go! The FOSS4G 2025 conference is kicking off today, can't wait to see you all in Auckland over the next week!`,
+    link: ''
+  },
+  {
     date: '3rd October 2025',
     title: 'Standard Pricing ends today',
     content: `
