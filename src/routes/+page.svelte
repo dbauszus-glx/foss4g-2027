@@ -185,13 +185,11 @@
       <Card title="Our Conference Venue" color="secondary">
         <div>
           FOSS4G 2025 is proudly supported by Auckland University of Technology's School of Future
-          Environments.<br />Located in the heart of Auckland City, the
-          <a
-            href="https://use.mazemap.com/#v=1&campusid=103&zlevel=1&center=174.765877,-36.853388&zoom=17.6"
-            target="_blank">AUT City Campus</a
-          > is within minutes of the central business district, has excellent public transport and accommodation
-          options.
-          Address: <a href="https://www.google.com/maps/place/-36.853388,174.765877" target="_blank">WG Building 2 Governor Fitzroy Place, Auckland</a>
+          Environments.
+        </div>
+        <div class="flex flex-col gap-x-4 sm:w-[180px] sm:flex-row">
+          <Button href="https://www.google.com/maps/dir/?api=1&destination=-36.853388%2C174.765877">Get directions</Button>
+          <Button href="https://use.mazemap.com/#v=1&campusid=103&zlevel=1&center=174.765877,-36.853388&zoom=17.6">Campus map</Button>
         </div>
       </Card>
     </div>
