@@ -29,7 +29,7 @@ Wednesday    | WG404     | [your name here]   | [brief topic description]
 Wednesday    | WG607     | [your name here]   | [brief topic description]
 Thursday     | WG403     | [your name here]   | [brief topic description]
 Thursday     | WG308     | Anthony Lukach & Michelle Roby   | Source Cooperative Office Hours
-Thursday     | WG126     | [your name here]   | [brief topic description]
+Thursday     | WG126     | Alex Leith, Nobuske Iwasaki and the 2025/2026 LOCs | Knowledge transfer, meet and greet and handover between FOSS4G 2025 and 2026
 Thursday     | WA220     | [your name here]   | [brief topic description]
 Thursday     | WG404     | [Oscar So]   | [Building and Sustaining Community Groups]
 Thursday     | WG607     | Leo Hardtke   |  Reproducible Systems and workflows
