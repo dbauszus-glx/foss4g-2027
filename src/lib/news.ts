@@ -1,9 +1,14 @@
 export default [
   {
     date: '17th November 2025',
-    title: 'Welcome to FOSS4G 2025!',
-    content: `Here we go! The FOSS4G 2025 conference is kicking off today, can't wait to see you all in Auckland over the next week!`,
-    link: ''
+    title: 'FOSS4G 2025 has begun!',
+    content: `
+Day 1 has kicked off in Tāmaki Makaurau, Auckland.
+
+We would like to take this moment to thank each and every one of you, regardless of your attendance, to say thank you for joining us on this ride. It has been over a year in the planning.
+
+We are all smiles and here to welcome you to this year's global conference.`,
+    link: 'https://mailchi.mp/foss4g/foss4g2025begins?e=671fd18b28'
   },
   {
     date: '3rd October 2025',
