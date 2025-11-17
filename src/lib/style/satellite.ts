@@ -25,7 +25,7 @@ export default {
         if (lyr.id.includes('uilding')) return null;
 
         // make roads a little transparent
-        if (lyr.id.includes('oad')) {
+        if (lyr.id.includes('oad') && lyr.type != 'symbol') {
           // @ts-ignore
           lyr.paint['line-opacity'] = 0.7;
 
