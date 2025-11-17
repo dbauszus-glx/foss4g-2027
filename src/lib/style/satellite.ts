@@ -8,6 +8,7 @@ export default {
   image: SatelliteOverview,
   textColor: 'white',
   order: 1,
+  beforeAdd: StreetsStyle.beforeAdd,
   style: (config: MapConfig): StyleSpecification => {
     const streets = StreetsStyle.style(config);
 
