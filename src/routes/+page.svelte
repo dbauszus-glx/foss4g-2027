@@ -75,6 +75,7 @@
         <div class="flex flex-col gap-4 pt-4 sm:w-[240px] sm:flex-row">
           <Button href="/attend/register">Buy tickets</Button>
           <Button href="/program/schedule">View schedule</Button>
+          <Button href="/attend/app">Conference App</Button>
         </div>
       </div>
     </div>
@@ -146,7 +147,7 @@
     </div>
 -->
 
-    <Card
+    <!-- <Card
       title="Workshops are now on Sale"
       color="secondary"
       button={{ href: 'https://ti.to/osgeo-oceania/foss4g-2025', text: 'Register for Workshops' }}
@@ -166,6 +167,35 @@
           <li>Monday Afternoon: choose 1 from 11 available.</li>
           <li>Tuesday Morning: choose 1 from 11 available.</li>
           <li>Tuesday Afternoon: choose 1 from 11 available.</li>
+        </ul>
+      </div>
+    </Card> -->
+
+    <Card
+      title="Event Tickets are on Sale"
+      color="secondary"
+      button={{ href: 'https://ti.to/osgeo-oceania/foss4g-2025', text: 'Register for Events' }}
+    >
+      <div>
+        <p>
+          Business 2 Business, Gala Dinner and other event tickets are sitll available to purchase
+        </p>
+        <br />
+        <ul class="list-disc pl-4">
+          <li>
+            <b>Business 2 Business</b> - Tuesday 18th November, 2:00pm - 5:30pm - Networking and Sponsor
+            Talks
+          </li>
+          <li>
+            <b>Gala Dinner</b> - Wednesday 19th November - 6pm until late – An evening of celebration,
+            connection, and entertainment
+          </li>
+          <li>
+            <b>GeoChicas</b> - Thursday 20th November - Evening - evening of networking, sharing, and
+            community building working to increase the participation and visibility of women in FOSS4G
+            spaces
+          </li>
+          <li><Link href="program/events">And more...</Link></li>
         </ul>
       </div>
     </Card>
@@ -188,8 +218,13 @@
           Environments.
         </div>
         <div class="flex flex-col gap-x-4 sm:w-[180px] sm:flex-row">
-          <Button href="https://www.google.com/maps/dir/?api=1&destination=-36.853388%2C174.765877">Get directions</Button>
-          <Button href="https://use.mazemap.com/#v=1&campusid=103&zlevel=1&center=174.765877,-36.853388&zoom=17.6">Campus map</Button>
+          <Button href="https://www.google.com/maps/dir/?api=1&destination=-36.853388%2C174.765877"
+            >Get directions</Button
+          >
+          <Button
+            href="https://use.mazemap.com/#v=1&campusid=103&zlevel=1&center=174.765877,-36.853388&zoom=17.6"
+            >Campus map</Button
+          >
         </div>
       </Card>
     </div>
