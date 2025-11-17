@@ -9,6 +9,7 @@ export default {
   image: Nineteen20sOverview,
   textColor: 'black',
   order: 2,
+  beforeAdd: StreetsStyle.beforeAdd,
   style: (config: MapConfig): StyleSpecification => {
     const streets = StreetsStyle.style(config);
 
