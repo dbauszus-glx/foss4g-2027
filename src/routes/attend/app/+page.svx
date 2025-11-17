@@ -11,6 +11,7 @@ title: QField App
   import Link from '$components/Link.svelte';
   import Card from '$components/Card.svelte';
   import App from '$images/qfield_app.jpeg?enhanced';
+  import AppQR from '$images/onelinkto_foss4g25.png?url';
 </script>
 
 
@@ -35,3 +36,6 @@ Everything (except real-time data) works entirely offline.
 To get started, install QField (https://qfield.org/get) on your device and scan the QR code 
 or visit https://onelink.to/foss4g25
 
+<div class="w-100">
+<img src="{AppQR}" />
+</div>
