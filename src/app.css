@@ -106,3 +106,14 @@ h4 {
   margin-bottom: 16px;
   margin-top: 32px;
 }
+
+a {
+  text-decoration: underline;
+}
+
+/* Don't underline links in buttons */
+.btn a,
+a.btn,
+.navbar a {
+  text-decoration: none;
+}
