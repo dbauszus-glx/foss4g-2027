@@ -83,12 +83,6 @@ export default {
     photo: () => import('$images/team/ivana.jpg?enhanced'),
     bio: 'Ivana currently works as a senior teaching & research academic Spatial Sciences at Curtin University in Perth, Australia. Ivana’s research interests and expertise are in spatial data quality, metadata and provenance of spatial resources, and spatial information infrastructures. In her teaching, she is an advocate and promotor of the FOSS4G tools, currently helping students to develop open standards-compliant geoweb applications. Ivana is an OSGeo Charter Member and represents Curtin University at UN-GGIM Academic Network. She also volunteers at OSGeo’s Geo4All where she coordinates the PostGIS training for the UN OpenGIS Initiative. Ivana co-chairs Open Geospatial Consortium (OGC)’s Domain Working Group on Data Quality, develops ISO standards for geographic information quality and convenes various advisory groups at ISO/TC211.'
   },
-  david: {
-    name: 'David Ramiro',
-    title: 'Website, Map',
-    photo: () => import('$images/team/rami.jpeg?enhanced'),
-    bio: "So much to say - we're still putting the words together!"
-  },
   phoebe: {
     name: 'Phoebe Adams',
     title: 'Volunteers',
