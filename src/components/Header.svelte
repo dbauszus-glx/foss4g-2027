@@ -220,18 +220,20 @@
             <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
             <ul
               tabindex="0"
-              class="dropdown-content menu bg-primary rounded-box border-primary/50 left-1/2 z-1 -translate-x-1/2 border p-2 text-white shadow-lg"
+              class="dropdown-content left-1/2 -translate-x-1/2 pt-2"
             >
-              {#each menuItem.subMenu as subItem}
-                <li>
-                  <Link
-                    aria-label={subItem.label}
-                    href={subItem.url}
-                    class={`hover:bg-success hover:text-primary px-4 py-2 text-left text-sm font-light whitespace-nowrap transition-all duration-200 hover:border-none`}
-                    >{subItem.label}
-                  </Link>
-                </li>
-              {/each}
+              <div class="menu bg-primary rounded-box border-primary/50  z-1 border p-2 text-white shadow-lg">
+                {#each menuItem.subMenu as subItem}
+                  <li>
+                    <Link
+                      aria-label={subItem.label}
+                      href={subItem.url}
+                      class={`hover:bg-success hover:text-primary px-4 py-2 text-left text-sm font-light whitespace-nowrap transition-all duration-200 hover:border-none`}
+                      >{subItem.label}
+                    </Link>
+                  </li>
+                {/each}
+              </div>
             </ul>
           </div>
         {:else}
