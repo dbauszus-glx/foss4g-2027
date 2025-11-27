@@ -57,19 +57,19 @@
   const sourceCode = [
     {
       name: 'MapLibre Svelte Component',
-      link: 'https://github.com/rami-dv/foss4g-2025/blob/main/src/components/map/Map.svelte'
+      link: 'https://github.com/osgeo-oceania/foss4g-2025/blob/main/src/components/map/Map.svelte'
     },
     {
       name: 'MapLibre Streets Style',
-      link: 'https://github.com/rami-dv/foss4g-2025/blob/main/src/lib/style/streets.ts'
+      link: 'https://github.com/osgeo-oceania/foss4g-2025/blob/main/src/lib/style/streets.ts'
     },
     {
       name: 'Calculate building heights with LINZ building footprints, DEM and DSM, using GDAL and exactextract',
-      link: 'https://github.com/rami-dv/foss4g-2025/blob/main/src/scripts/buildings.py'
+      link: 'https://github.com/osgeo-oceania/foss4g-2025/blob/main/src/scripts/buildings.py'
     },
     {
       name: 'Planetiler config for vector tile building from LINZ & Auckland Council data',
-      link: 'https://github.com/rami-dv/foss4g-2025/blob/main/src/scripts/config/planetiler.yml'
+      link: 'https://github.com/osgeo-oceania/foss4g-2025/blob/main/src/scripts/config/planetiler.yml'
     }
   ];
 
