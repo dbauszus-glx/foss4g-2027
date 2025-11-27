@@ -12,7 +12,7 @@ title: Gala Dinner
 
 <div class="flex flex-row justify-between">
 <Heading>Gala Dinner</Heading>
-<Button class="w-50" href="https://ti.to/osgeo-oceania/foss4g-2025/with/conference-dinner">Purchase Tickets</Button>
+<Button class="w-50 btn-disabled" href="https://ti.to/osgeo-oceania/foss4g-2025/with/conference-dinner">Purchase Tickets</Button>
 </div>
 
 **Wednesday 19th November - 6pm until late**
@@ -40,4 +40,4 @@ The Gala Dinner is a highlight of every FOSS4G conference - an opportunity to ce
 
 Don't miss this special evening!
 
-[Purchase Tickets →](https://ti.to/osgeo-oceania/foss4g-2025/with/conference-dinner)
+<b>Tickets are no longer available.</b>

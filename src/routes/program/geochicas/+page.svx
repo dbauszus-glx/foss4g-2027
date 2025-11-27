@@ -9,7 +9,7 @@ title: GeoChicas
 
 <div class="flex flex-row justify-between">
 <Heading>GeoChicas</Heading>
-<Button class="w-50" href="https://ti.to/osgeo-oceania/foss4g-2025/with/geochickas">Get Tickets</Button>
+<Button class="w-50 btn-disabled" href="https://ti.to/osgeo-oceania/foss4g-2025/with/geochickas">Get Tickets</Button>
 </div>
 
 **Thursday 20th November - Evening**
@@ -40,4 +40,4 @@ All genders welcome! GeoChicas events are inclusive spaces for anyone who suppor
 
 This event operates on a pay-what-you-want model, making it accessible to all who wish to attend.
 
-[Get your tickets →](https://ti.to/osgeo-oceania/foss4g-2025/with/geochickas)
+<b>Tickets are no longer available.</b>

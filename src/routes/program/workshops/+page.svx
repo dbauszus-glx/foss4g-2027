@@ -33,9 +33,6 @@ There will be catering on these days for workshop participants only.
 • [Let’s create Interactive Web Maps with the Open-Source WebGIS: Re:Earth - Visualizer + Re:Earth CMS Workshop](https://talks.osgeo.org/foss4g-2025/talk/RQLV9M/)<br>
 • [QField & QFieldCloud: Hands-On Fieldwork Workshop](https://talks.osgeo.org/foss4g-2025/talk/BJJF7M/)
 
-<GiantButton href="https://ti.to/osgeo-oceania/foss4g-2025/">
-  Register
-</GiantButton>
 
 ### Monday 17 November - Afternoon Workshops
 
@@ -52,10 +49,6 @@ There will be catering on these days for workshop participants only.
 • [QGIS Graphical Modeler: Build Smarter Workflows with Algorithms and Expressions Workshop](https://talks.osgeo.org/foss4g-2025/talk/PNHVDA/)<br>
 • [QGIS Plugin Development](https://talks.osgeo.org/foss4g-2025/talk/ZFPBLE/)<br>
 • [Tile serving with MapLibre/Martin/Planetiler - base and overlays Workshop](https://talks.osgeo.org/foss4g-2025/talk/PGV8BG/)
-
-<GiantButton href="https://ti.to/osgeo-oceania/foss4g-2025/">
-  Register
-</GiantButton>
 
 ### Tuesday 18 November - Morning Workshops
 
@@ -74,10 +67,6 @@ There will be catering on these days for workshop participants only.
 • [Standalone Web Maps, No Platform Required Workshop](https://talks.osgeo.org/foss4g-2025/talk/BMWWR9/)<br>
 • [Terra Draw - cross-platform drawing library for all map applications Workshop](https://talks.osgeo.org/foss4g-2025/talk/7S9CLN/)
 
-<GiantButton href="https://ti.to/osgeo-oceania/foss4g-2025/">
-  Register
-</GiantButton>
-
 ### Tuesday 18 November - Afternoon Workshops
 
 1:30pm to 5:00pm
@@ -94,11 +83,5 @@ There will be catering on these days for workshop participants only.
 • [Semantic Interoperability made easy with OGC Building Blocks Workshop](https://talks.osgeo.org/foss4g-2025/talk/KZDMU9/)<br>
 • [Simulating Sustainable Urban Spaces on AWS Workshop](https://talks.osgeo.org/foss4g-2025/talk/XLSDYG/)<br>
 • [The Deep Magic of QGIS Cartography Workshop](https://talks.osgeo.org/foss4g-2025/talk/GLTDBP/)
-
-<GiantButton href="https://ti.to/osgeo-oceania/foss4g-2025/">
-  Register
-</GiantButton>
-
-
 
 <enhanced:img src={Rangitoto} alt="Rangitoto Island" />

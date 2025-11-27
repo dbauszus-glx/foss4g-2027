@@ -13,7 +13,7 @@ title: Rangitoto Day Trip
 
 <div class="flex flex-row justify-between">
 <Heading>Rangitoto Day Trip</Heading>
-<Button class="w-50" href="https://ti.to/osgeo-oceania/foss4g-2025/with/rangitoto-island-day-trip">Purchase Tickets</Button>
+<Button class="w-50 btn-disabled" href="https://ti.to/osgeo-oceania/foss4g-2025/with/rangitoto-island-day-trip">Purchase Tickets</Button>
 </div>
 
 **Saturday 22nd November – All Day (weather permitting)**
@@ -25,7 +25,7 @@ Cushla Barfoot, former Secretary of the Rangitoto Island Historic Conversation T
 **Trip Details:**
 - Departs from Downtown Ferry Terminal, 99 Quay St - Pier 13 at 9:15am
 - Returns to Auckland around 3:00pm
-- Cost: $60 per person - [Purchase tickets →](https://ti.to/osgeo-oceania/foss4g-2025/with/rangitoto-island-day-trip)
+- Cost: $60 per person. <b>Tickets are no longer available</b>
 
 **What to bring:**
 - All food and water needed for the day

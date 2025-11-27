@@ -23,7 +23,7 @@ title: Register
 
   ## Get Your Tickets
 
-  <TicketOptions />
+  <TicketOptions disabled=true />
 
 
 </main>

@@ -1,5 +1,7 @@
 <script lang="ts">
   import Foss4g2025Logo from '$images/svg/Landing-Logo.svg?raw';
+  import Foss4g2026Logo from '$images/foss4g-2026.png?enhanced';
+  import Foss4g2025Photo from '$images/foss4g-2025-group-photo.jpg?enhanced';
   import TicketOptions from '$components/TicketOptions.svelte';
   import Countdown from '$components/Countdown.svelte';
   import Keynotes from '$components/Keynotes.svelte';
@@ -13,12 +15,17 @@
   import Card from '$components/Card.svelte';
   import Video from '$components/Video.svelte';
   import News from '$lib/news';
+  import Header from '$components/Header.svelte';
 </script>
 
 <svelte:head>
   <title>FOSS4G 2025</title>
 </svelte:head>
 
+<div class="bg-primary/90 mb-6 flex items-center gap-4 rounded-xl px-4 py-3 text-white">
+  FOSS4G 2025 has concluded!
+</div>
+<!-- 
 {#if News.length > 0}
   <div class="bg-primary/90 mb-6 flex items-center gap-4 rounded-xl px-4 py-3 text-white">
     <span class="hidden whitespace-nowrap sm:inline">{News[0].date}</span>
@@ -42,9 +49,10 @@
     </div>
   </div>
 {/if}
+-->
 
 <!-- Hero -->
-<main class="m:space-y-12 mb-8 space-y-12 sm:space-y-16">
+<main class="m:space-y-12 mmb-8 space-y-12 sm:space-y-16">
   <div class="hero flex">
     <div
       class="hero-content bg-secondary relative w-full flex-col rounded-4xl px-6 py-8 sm:min-h-[500px] sm:px-10 sm:py-12"
@@ -73,7 +81,6 @@
           developers, decision makers and researchers together from around the world
         </div>
         <div class="flex flex-col gap-4 pt-4 sm:w-[240px] sm:flex-row">
-          <Button href="/attend/register">Buy tickets</Button>
           <Button href="/program/schedule">View schedule</Button>
           <Button href="/attend/app">Conference App</Button>
         </div>
@@ -82,7 +89,7 @@
   </div>
 
   <!-- Sponsor Grid -->
-  <div class="flex flex-wrap justify-center gap-4 sm:gap-8">
+  <!-- <div class="flex flex-wrap justify-center gap-4 sm:gap-8">
     {#each Object.values(Sponsors)
       .filter((sponsor) => sponsor.level < 5)
       .sort((a, b) => a.level - b.level) as sponsor}
@@ -100,7 +107,7 @@
         </div>
       {/await}
     {/each}
-  </div>
+  </div> -->
 
   <!-- Cards -->
 
@@ -171,32 +178,26 @@
       </div>
     </Card> -->
 
-    <Card
-      title="Event Tickets are on Sale"
-      color="secondary"
-      button={{ href: 'https://ti.to/osgeo-oceania/foss4g-2025', text: 'Register for Events' }}
-    >
+    <Card title="Thank you for Attending!" color="secondary">
       <div>
         <p>
-          Business 2 Business, Gala Dinner and other event tickets are sitll available to purchase
+          FOSS4G 2025 has concluded. Thank you to all of our sponsors, speakers, volunteers, and
+          attendees for making this event a success! It has been our privilege to host the global
+          open source geospatial community here in Tāmaki Makaurau Auckland, Aotearoa New Zealand.
+        </p>
+        <h4>Presentation Videos</h4>
+        <p>
+          Presentations will be posted to the <Link
+            href="https://www.youtube.com/@FOSS4G/playlists"
+            target="_blank">FOSS4G YouTube Channel</Link
+          > when they become available
+        </p>
+        <h4>Post-conference Survey</h4>
+        <p>
+          Please remember to fill out the post-conference survey sent to all attendees. Your
+          feedback helps us improve this event for the future.
         </p>
         <br />
-        <ul class="list-disc pl-4">
-          <li>
-            <b>Business 2 Business</b> - Tuesday 18th November, 2:00pm - 5:30pm - Networking and Sponsor
-            Talks
-          </li>
-          <li>
-            <b>Gala Dinner</b> - Wednesday 19th November - 6pm until late – An evening of celebration,
-            connection, and entertainment
-          </li>
-          <li>
-            <b>GeoChicas</b> - Thursday 20th November - Evening - evening of networking, sharing, and
-            community building working to increase the participation and visibility of women in FOSS4G
-            spaces
-          </li>
-          <li><Link href="program/events">And more...</Link></li>
-        </ul>
       </div>
     </Card>
 
@@ -231,7 +232,30 @@
   </div>
 
   <div>
-    <Video src="https://www.youtube-nocookie.com/embed/HNxqnUhL-yM?si=Z5-6exzf98KhoHZy" />
+    <enhanced:img
+      src={Foss4g2025Photo}
+      alt="FOSS4G 2025 Group Photo"
+      class="mb-8 w-full rounded-4xl"
+    />
+  </div>
+
+  <div>
+    <Heading size="sm">FOSS4G 2026 Announcement</Heading>
+    <div
+      class="border-secondary mb-8 flex flex-col-reverse gap-4 rounded-4xl border-1 p-4 text-lg sm:flex-row sm:px-8 sm:py-8"
+    >
+      <div class="flex flex-1 flex-grow items-center">
+        <p>
+          Save the date! OSGeo is pleased to announce that FOSS4G 2026 will be held in Hiroshima,
+          Japan, 30 August to 5 September, at the International Conference Center Hiroshima (ICCH).
+          <br />
+          <Button href="https://foss4g.org/" target="_blank" class="mt-6 w-50">foss4g.org</Button>
+        </p>
+      </div>
+      <div class="items-cente flex flex-1 flex-grow">
+        <enhanced:img src={Foss4g2026Logo} alt="FOSS4G 2025 Group Photo" class="p-4" />
+      </div>
+    </div>
   </div>
 
   <Heading>Keynote Speakers</Heading>
@@ -241,18 +265,18 @@
   <Heading>Agenda</Heading>
 
   <Agenda />
-
+  <!-- 
   <div class="max-w-full py-8 sm:py-12">
     <img src={Rangitoto} alt="Rangitoto" />
-  </div>
+  </div> -->
 
-  <Countdown label="Conference starts in:" time="2025-11-17T09:00:00+12:00" />
+  <!-- <Countdown label="Conference starts in:" time="2025-11-17T09:00:00+12:00" /> -->
 
-  <Heading class="mt-16 sm:mt-28">Register Now</Heading>
+  <!-- <Heading class="mt-16 sm:mt-28">Register Now</Heading>
 
   <Heading size="sm" class="mt-8 sm:mt-14">Ticket Options</Heading>
 
-  <TicketOptions />
+  <TicketOptions /> -->
 
   {#snippet sponsorLevel(
     title: string,
@@ -289,6 +313,10 @@
     {#each Object.entries(SPONSOR_LEVELS) as [title, level]}
       {@render sponsorLevel(title, level)}
     {/each}
+  </div>
+
+  <div class="mb-12">
+    <Video src="https://www.youtube-nocookie.com/embed/HNxqnUhL-yM?si=Z5-6exzf98KhoHZy" />
   </div>
 </main>
 
