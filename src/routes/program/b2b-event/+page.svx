@@ -12,7 +12,7 @@ title: B2B Event
 
 <div class="flex flex-row justify-between">
 <Heading>Business to Business</Heading>
-<Button class="w-50" href="https://ti.to/osgeo-oceania/foss4g-2025/with/business-to-business-networking">Purchase Tickets</Button>
+<Button class="w-50 btn-disabled" href="https://ti.to/osgeo-oceania/foss4g-2025/with/business-to-business-networking">Purchase Tickets</Button>
 </div>
 
 
@@ -38,6 +38,6 @@ This B2B networking event is designed to foster connections between businesses, 
 
 Tickets are available for anyone to purchase (conference attendance is not required) and all are invited to join this networking opportunity.
 
-**[Purchase Tickets - $25 NZD](https://ti.to/osgeo-oceania/foss4g-2025/with/business-to-business-networking)**
-
 This is a great opportunity to expand your professional network, learn from industry peers, and contribute to the vibrant FOSS4G community while enjoying good food and conversation.
+
+<b>Tickets are no longer available</b>

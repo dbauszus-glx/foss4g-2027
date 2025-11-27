@@ -1,6 +1,12 @@
 <script lang="ts">
   import Button from './Button.svelte';
 
+  interface Props {
+    disabled?: boolean;
+  }
+
+  const { disabled }: Props = $props();
+
   const ticketOptions = [
     {
       title: 'Last Chance Conference Ticket',
@@ -51,7 +57,7 @@
     <div class="mt-4 flex justify-end sm:justify-normal">
       <Button
         href="https://ti.to/osgeo-oceania/foss4g-2025"
-        class={`text-sm ${tOption.buttonClass}`}
+        class={`text-sm ${tOption.buttonClass} ${disabled ? 'btn-disabled' : ''}`}
       >
         Get Your Ticket
       </Button>

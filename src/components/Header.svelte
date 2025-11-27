@@ -14,10 +14,10 @@
   });
 
   let menuItems = [
-    {
-      label: 'Register',
-      url: '/attend/register'
-    },
+    // {
+    //   label: 'Register',
+    //   url: '/attend/register'
+    // },
     {
       label: 'About',
       url: '/organisers',
@@ -218,11 +218,10 @@
               {/if}
             </div>
             <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
-            <ul
-              tabindex="0"
-              class="dropdown-content left-1/2 -translate-x-1/2 pt-2"
-            >
-              <div class="menu bg-primary rounded-box border-primary/50  z-1 border p-2 text-white shadow-lg">
+            <ul tabindex="0" class="dropdown-content left-1/2 -translate-x-1/2 pt-2">
+              <div
+                class="menu bg-primary rounded-box border-primary/50 z-1 border p-2 text-white shadow-lg"
+              >
                 {#each menuItem.subMenu as subItem}
                   <li>
                     <Link
