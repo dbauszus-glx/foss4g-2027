@@ -8,7 +8,7 @@
   <div class="px-2 pb-8">
     <div class="bg-primary grid rounded-4xl sm:grid-cols-2">
       <div class="flex flex-col space-y-6 p-6 text-white sm:p-12">
-        <div class="text-xl">FOSS4G Auckland 2025</div>
+        <div class="text-xl">FOSS4G Bristol 2027</div>
         <div class="grid grid-cols-2">
           <ul class="space-y-3">
             <li><Link href="/program/schedule">Schedule</Link></li>
