@@ -202,8 +202,11 @@
   class:sm:scale-75={page.route.id == '/map'}
   class="navbar border-primary/10 sticky top-0 z-20 h-16 rounded-lg border-b-1 bg-white px-4 py-2 sm:relative sm:top-auto sm:h-22 sm:border-none sm:py-6"
 >
-  <div class="navbar-start z-20 my-4 w-auto">
+  <!-- <div class="navbar-start z-20 my-4 w-auto">
     <Link href="/"><img src={svgLogo} alt="FOSS4G Logo" class="-ml-3.5 max-w-[220px]" /></Link>
+  </div> -->
+  <div class="navbar-start z-20 my-4 w-auto">
+    <Link href="/"><img alt="FOSS4G Logo" class="-ml-3.5 max-w-[220px]" src="/src/images/FOSS4G2027-BRISTOL.png"></Link>
   </div>
 
   <div class="navbar-end flex-1 overflow-hidden sm:overflow-visible">

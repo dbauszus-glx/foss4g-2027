@@ -1,9 +1,8 @@
-# FOSS4G 2025 Auckland Website
+# FOSS4G 2027 Bristol Website
 
-<img src="/src/images/svg/foss4g-2025-logo-banner.svg" width="460px">
+This is a fork of the FOSS4G 2025 website: https://github.com/osgeo-oceania/foss4g-2025
 
-- Prod: https://2025.foss4g.org/
-- Dev: https://osgeo-oceania.github.io/foss4g-2025-dev/
+The production site can be visited here: https://2025.foss4g.org/
 
 ## Website Development
 
