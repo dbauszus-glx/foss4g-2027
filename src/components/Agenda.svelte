@@ -10,18 +10,18 @@
 
   const agendaItems: AgendaItem[] = [
     {
-      days: 'Mon 17, Tue 18 Nov',
+      days: 'Mon 23, Tue 24 Aug',
       time: '09:00 - 17:00',
       heading: 'Workshops',
       description:
-        'Workshops will be held at AUT City Campus in the heart of the Auckland central business district. Classrooms are in the WF building. The registration and break area will also be in the WF building.'
+        'Workshops will be held at UoB Humanities.'
     },
     {
-      days: 'Wed 19 to Fri 21 Nov',
+      days: 'Wed 25 to Fri 27 Aug',
       time: '09:00 - 17:00',
       heading: 'Conference',
       description:
-        'Conference sessions will be held at AUT City Campus in the heart of the Auckland central business district.  All sessions will be held in the WG building. The registration, exhibition and break areas will also be in the WG building.'
+        'Conference sessions will be held at UoB Wills Memorial Building and the Chemistry Building.'
     },
     {
       days: 'Sat 22, Sun 23 Nov',
@@ -53,7 +53,7 @@
     {@render agendaItemGrid(agendaItem)}
   {/each}
   
-  <div class="flex justify-end pt-4 sm:pt-8 pr-0">
+  <!-- <div class="flex justify-end pt-4 sm:pt-8 pr-0">
     <Button href="/program/outline" class="w-[240px]">View Detailed Program</Button>
-  </div>
+  </div> -->
 </div>

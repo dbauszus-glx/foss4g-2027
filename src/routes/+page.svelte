@@ -23,7 +23,7 @@
 </svelte:head>
 
 <div class="bg-primary/90 mb-6 flex items-center gap-4 rounded-xl px-4 py-3 text-white">
-  FOSS4G 2025 has concluded!
+  FOSS4G 2027 will be in Bristol!
 </div>
 <!-- 
 {#if News.length > 0}
@@ -60,7 +60,7 @@
       <div
         class="[&_path]:!fill-primary absolute right-0 bottom-0 -z-10 h-72 w-72 sm:h-96 sm:w-96 sm:pr-8 sm:pb-8 [&_svg]:max-h-72 [&_svg]:max-w-72 [&_svg]:sm:max-h-96 [&_svg]:sm:max-w-96"
       >
-        {@html Foss4g2025Logo}
+        <!-- {@html Foss4g2025Logo} -->
         <div
           class="to-secondary/90 from-secondary/30 absolute inset-0 rounded-4xl bg-gradient-to-b sm:from-transparent"
         ></div>
@@ -68,22 +68,22 @@
       <div
         class="flex w-full flex-shrink flex-col justify-between font-serif text-sm sm:flex-row sm:space-y-4"
       >
-        <div class="uppercase">November 17-23, 2025</div>
-        <div>Tāmaki Makaurau, Aotearoa New Zealand</div>
+        <div class="uppercase">August 23-29, 2027</div>
+        <div>Bristol, United Kingdom</div>
       </div>
       <div class="w-full flex-grow space-y-4">
         <div class="font-serif text-4xl leading-tight text-white sm:text-7xl">
-          FOSS4G<br />Auckland 2025
+          FOSS4G<br />Bristol 2027
         </div>
         <div class="text-md font-serif text-white sm:w-[85%]">
           FOSS4G stands for Free and Open Source Software for Geospatial, a conference series hosted
           in partnership with OSGeo. FOSS4G brings open source geospatial users, software
           developers, decision makers and researchers together from around the world
         </div>
-        <div class="flex flex-col gap-4 pt-4 sm:w-[240px] sm:flex-row">
+        <!-- <div class="flex flex-col gap-4 pt-4 sm:w-[240px] sm:flex-row">
           <Button href="/program/schedule">View schedule</Button>
           <Button href="/attend/app">Conference App</Button>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -202,28 +202,26 @@
     </Card>
 
     <div class="flex flex-col-reverse sm:flex-col sm:gap-y-4">
-      <Card title="Tāmaki Makaurau Auckland" color="primary">
+      <Card title="Visit Bristol" color="primary">
         <div>
-          These are the Māori names given to Auckland. They speak of our diverse landscapes,
-          beautiful harbours, and fertile soils. They speak of the coming together of different iwi
-          (tribes) to meet and trade.
+          If ever there was a city with a story to tell, it’s Bristol.
+Enveloped in the hills of South West England, Bristol has developed an inimitable identity and fiercely independent spirit, crafted by its passionate locals.
         </div>
-        <div class="flex flex-col gap-x-4 sm:w-[180px] sm:flex-row">
+        <!-- <div class="flex flex-col gap-x-4 sm:w-[180px] sm:flex-row">
           <Button href="/map">Map</Button>
           <Button href="/attend/nz-adventures">City Guide</Button>
-        </div>
+        </div> -->
       </Card>
       <Card title="Our Conference Venue" color="secondary">
         <div>
-          FOSS4G 2025 is proudly supported by Auckland University of Technology's School of Future
-          Environments.
+          FOSS4G 20257 will be hosted by the University of Bristol.
         </div>
         <div class="flex flex-col gap-x-4 sm:w-[180px] sm:flex-row">
-          <Button href="https://www.google.com/maps/dir/?api=1&destination=-36.853388%2C174.765877"
+          <Button href="https://www.google.com/maps/dir/?api=1&destination=51.4561909%2C-2.6071939" target="_blank"
             >Get directions</Button
           >
           <Button
-            href="https://use.mazemap.com/#v=1&campusid=103&zlevel=1&center=174.765877,-36.853388&zoom=17.6"
+            href="https://use.mazemap.com/#v=1&config=uobexternalmap&campusid=843&zlevel=1&center=-2.603076,51.457665&zoom=15.9" target="_blank"
             >Campus map</Button
           >
         </div>
@@ -240,14 +238,13 @@
   </div>
 
   <div>
-    <Heading size="sm">FOSS4G 2026 Announcement</Heading>
+    <Heading size="sm">FOSS4G 2026</Heading>
     <div
       class="border-secondary mb-8 flex flex-col-reverse gap-4 rounded-4xl border-1 p-4 text-lg sm:flex-row sm:px-8 sm:py-8"
     >
       <div class="flex flex-1 flex-grow items-center">
         <p>
-          Save the date! OSGeo is pleased to announce that FOSS4G 2026 will be held in Hiroshima,
-          Japan, 30 August to 5 September, at the International Conference Center Hiroshima (ICCH).
+          FOSS4G 2026 will be held in Hiroshima, Japan, 30 August to 5 September, at the International Conference Center Hiroshima (ICCH).
           <br />
           <Button href="https://foss4g.org/" target="_blank" class="mt-6 w-50">foss4g.org</Button>
         </p>
@@ -316,7 +313,7 @@
   </div>
 
   <div class="mb-12">
-    <Video src="https://www.youtube-nocookie.com/embed/HNxqnUhL-yM?si=Z5-6exzf98KhoHZy" />
+    <Video src="https://www.youtube-nocookie.com/embed/khM7tjui86Q" />
   </div>
 </main>
 
