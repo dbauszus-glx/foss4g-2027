@@ -11,9 +11,9 @@
         <div class="text-xl">FOSS4G Bristol 2027</div>
         <div class="grid grid-cols-2">
           <ul class="space-y-3">
-            <li><Link href="/program/schedule">Schedule</Link></li>
+            <!-- <li><Link href="/program/schedule">Schedule</Link></li>
             <li><Link href="/attend/register">Register</Link></li>
-            <li><Link href="/program/outline">Program</Link></li>
+            <li><Link href="/program/outline">Program</Link></li> -->
             <li><Link href="/sponsorship">Sponsorship</Link></li>
             <li><Link href="/organisers">Organisers</Link></li>
           </ul>
@@ -23,7 +23,6 @@
             <li><Link href="/attend/privacy-policy">Privacy Policy</Link></li>
           </ul>
         </div>
-        <div class="mt-8 text-xs">&copy; FOSS4G Oceania - All rights reserved</div>
       </div>
       <div class="bg-secondary text-primary space-y-4 rounded-4xl p-6 sm:p-12">
         <div class="text-md mb-2 uppercase">Stay Updated</div>
@@ -38,9 +37,9 @@
         </Link>
         <div class="text-md pt-8 uppercase">Follow Us</div>
         <div class=" flex space-x-2 text-2xl uppercase">
-          <Link href="https://www.facebook.com/foss4g2025/"
+          <!-- <Link href="https://www.facebook.com/foss4g2025/"
             ><span class="icon-[uil--facebook] block"></span></Link
-          >
+          > -->
           <Link href="https://www.linkedin.com/company/foss4g2025/"
             ><span class="icon-[uil--linkedin] block"></span></Link
           >

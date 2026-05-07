@@ -258,9 +258,9 @@
     </div>
   </div>
 
-  <Heading>Keynote Speakers</Heading>
+  <!-- <Heading>Keynote Speakers</Heading>
 
-  <Keynotes />
+  <Keynotes /> -->
 
   <Heading>Agenda</Heading>
 
