@@ -9,10 +9,22 @@ export const LEVELS = {
 };
 
 export default {
+  uob: {
+    name: 'University of Bristol',
+    logo: () => import('$images/logos/university_of_bristol.png?enhanced'),
+    link: 'https://www.bristol.ac.uk/venues/',
+    level: LEVELS.VENUE
+  },
   osgeouk: {
     name: 'OSGeoUK',
     logo: () => import('$images/logos/OSGeoUK.png?enhanced'),
     link: 'https://uk.osgeo.org/',
+    level: LEVELS.PARTNER
+  },
+  visitwest: {
+    name: 'VisitWest Convention Bureau',
+    logo: () => import('$images/logos/visit_west.jpg?enhanced'),
+    link: 'https://www.visitwestconventionbureau.co.uk/',
     level: LEVELS.PARTNER
   },
   osgeo: {
@@ -20,5 +32,5 @@ export default {
     logo: () => import('$images/logos/osgeo.png?enhanced'),
     link: 'https://www.osgeo.org/',
     level: LEVELS.PARTNER
-  }
+  },
 };
