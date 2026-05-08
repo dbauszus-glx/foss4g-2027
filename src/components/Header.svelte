@@ -26,10 +26,10 @@
         label: 'News',
         url: '/news'
       },
-      {
-        label: 'Map',
-        url: '/map'
-      },
+      // {
+      //   label: 'Map',
+      //   url: '/map'
+      // },
       {
         label: 'About FOSS4G',
         url: '/about/foss4g'
@@ -42,10 +42,10 @@
         label: 'Our Logo',
         url: '/about/logo'
       },
-      {
-        label: 'Volunteering',
-        url: '/attend/volunteering'
-      },
+      // {
+      //   label: 'Volunteering',
+      //   url: '/attend/volunteering'
+      // },
       {
         label: 'Code of Conduct',
         url: '/attend/code-of-conduct'
