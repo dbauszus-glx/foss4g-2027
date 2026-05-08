@@ -31,7 +31,7 @@ jobs:
 
       - name: build
         env:
-          PUBLIC_BASE_PATH: ${{ vars.PUBLIC_BASE_PATH }}
+          PUBLIC_BASE_PATH: "/foss4g-2027"
         run: |
           npm run build
 
