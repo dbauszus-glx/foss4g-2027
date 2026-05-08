@@ -216,7 +216,7 @@ Enveloped in the hills of South West England, Bristol has developed an inimitabl
         <div>
           FOSS4G 20257 will be hosted by the University of Bristol.
         </div>
-        <div class="flex flex-col gap-x-4 sm:w-[180px] sm:flex-row">
+        <div class="flex flex-col gap-4 sm:w-[180px] sm:flex-row">
           <Button href="https://www.google.com/maps/dir/?api=1&destination=51.4561909%2C-2.6071939" target="_blank"
             >Get directions</Button
           >
