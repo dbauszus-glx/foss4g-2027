@@ -1,50 +1,50 @@
-name: Update Schedule Data
+# name: Update Schedule Data
 
-on:
-  workflow_dispatch:
+# on:
+#   workflow_dispatch:
 
-permissions:
-  contents: write
-  pull-requests: write
+# permissions:
+#   contents: write
+#   pull-requests: write
 
-jobs:
-  update-schedule:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+# jobs:
+#   update-schedule:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
 
-      - name: Fetch schedule from API
-        run: |
-          echo "Fetching schedule data from API..."
-          curl -f -o static/data/schedule.json https://talks.osgeo.org/foss4g-2025/schedule/export/schedule.json
-          echo "Schedule data fetched successfully"
+#       - name: Fetch schedule from API
+#         run: |
+#           echo "Fetching schedule data from API..."
+#           curl -f -o static/data/schedule.json https://talks.osgeo.org/foss4g-2025/schedule/export/schedule.json
+#           echo "Schedule data fetched successfully"
 
-      - name: Check for changes
-        id: check_changes
-        run: |
-          if git diff --quiet static/data/schedule.json; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-            echo "No changes detected in schedule data"
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Changes detected in schedule data"
-          fi
+#       - name: Check for changes
+#         id: check_changes
+#         run: |
+#           if git diff --quiet static/data/schedule.json; then
+#             echo "changed=false" >> $GITHUB_OUTPUT
+#             echo "No changes detected in schedule data"
+#           else
+#             echo "changed=true" >> $GITHUB_OUTPUT
+#             echo "Changes detected in schedule data"
+#           fi
 
-      - name: Create Pull Request
-        if: steps.check_changes.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "Update schedule data from API"
-          branch: update-schedule-data
-          delete-branch: true
-          title: "Update schedule data from API"
-          body: |
-            Automated schedule update from https://talks.osgeo.org/foss4g-2025/schedule/export/schedule.json
+#       - name: Create Pull Request
+#         if: steps.check_changes.outputs.changed == 'true'
+#         uses: peter-evans/create-pull-request@v6
+#         with:
+#           commit-message: "Update schedule data from API"
+#           branch: update-schedule-data
+#           delete-branch: true
+#           title: "Update schedule data from API"
+#           body: |
+#             Automated schedule update from https://talks.osgeo.org/foss4g-2025/schedule/export/schedule.json
 
-            This PR was automatically created by the Update Schedule Data workflow.
+#             This PR was automatically created by the Update Schedule Data workflow.
 
-      - name: No changes
-        if: steps.check_changes.outputs.changed == 'false'
-        run: |
-          echo "Schedule is already up to date. No commit needed."
+#       - name: No changes
+#         if: steps.check_changes.outputs.changed == 'false'
+#         run: |
+#           echo "Schedule is already up to date. No commit needed."
