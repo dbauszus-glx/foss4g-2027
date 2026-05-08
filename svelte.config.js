@@ -17,7 +17,7 @@ const config = {
   kit: {
     adapter: adapter(),
     paths: {
-      base: process.env.PUBLIC_BASE_PATH ?? ''
+      base: '/foss4g-2027'
     },
     prerender: {
       handleHttpError: 'warn'
