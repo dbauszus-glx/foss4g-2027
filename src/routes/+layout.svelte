@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-  <title>FOSS4G 2025 Auckland</title>
+  <title>FOSS4G 2027 Bristol</title>
 </svelte:head>
 
 <div class="mx-auto flex min-h-screen max-w-5xl flex-col gap-6 sm:gap-0">

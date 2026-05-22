@@ -1,5 +1,5 @@
 <script>
-  export let title = 'FOSS4G 2025 Auckland';
+  export let title = 'FOSS4G 2027 Bristol';
   export let description = '';
 </script>
 
