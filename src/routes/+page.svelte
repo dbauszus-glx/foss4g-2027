@@ -19,11 +19,11 @@
 </script>
 
 <svelte:head>
-  <title>FOSS4G 2025</title>
+  <title>FOSS4G 2027</title>
 </svelte:head>
 
 <div class="bg-primary/90 mb-6 flex items-center gap-4 rounded-xl px-4 py-3 text-white">
-  FOSS4G 2027 will be in Bristol!
+  <a href="https://2026.foss4g.org/en/" class="hover:underline">FOSS4G 2026</a> will be in Hiroshima, Japan! 🗾
 </div>
 <!-- 
 {#if News.length > 0}
@@ -78,7 +78,7 @@
         <div class="text-md font-serif text-white sm:w-[85%]">
           FOSS4G stands for Free and Open Source Software for Geospatial, a conference series hosted
           in partnership with OSGeo. FOSS4G brings open source geospatial users, software
-          developers, decision makers and researchers together from around the world
+          developers, decision makers and researchers together from around the world.
         </div>
         <!-- <div class="flex flex-col gap-4 pt-4 sm:w-[240px] sm:flex-row">
           <Button href="/program/schedule">View schedule</Button>
@@ -178,24 +178,19 @@
       </div>
     </Card> -->
 
-    <Card title="Thank you for Attending!" color="secondary">
+    <Card title="Thank you Auckland!" color="secondary">
       <div>
         <p>
-          FOSS4G 2025 has concluded. Thank you to all of our sponsors, speakers, volunteers, and
-          attendees for making this event a success! It has been our privilege to host the global
-          open source geospatial community here in Tāmaki Makaurau Auckland, Aotearoa New Zealand.
+          FOSS4G 2025 in Auckland has concluded. We want to thank all of the sponsors, speakers, volunteers, delegates, and the amazing local organising committee for making this event a success.
         </p>
         <h4>Presentation Videos</h4>
         <p>
-          Presentations from the conference can be rewatched through <Link
-            href="https://youtube.com/playlist?list=PLlZzWSPAR5GYPAGSgs1Z6ydhoVgL7CAHd&si=IHYkEW5LS8qMaKdC"
-            target="_blank">this playlist</Link> from the <Link href="https://www.youtube.com/@foss4g-sotm-oceania"
-            target="_blank">FOSS4G Oceania YouTube Channel</Link>
+          Please visit the <Link href="https://www.youtube.com/@foss4g-sotm-oceania"
+            target="_blank">FOSS4G Oceania YouTube Channel</Link> to watch recordings of FOSS4G 2025 presentations, workshops, and keynotes.
         </p>
-        <h4>Post-conference Survey</h4>
+        <h4>Kon'nichiwa, Hiroshima!</h4>
         <p>
-          Please remember to fill out the post-conference survey sent to all attendees. Your
-          feedback helps us improve this event for the future.
+          The next global FOSS4G conference will be held in Hiroshima, Japan, 30 August to 5 September, at the International Conference Center Hiroshima (ICCH). We look forward to seeing you there for <Link href="https://foss4g.org/" target="_blank">FOSS4G 2026</Link>! A few people from the Bristol LOC will be attending FOSS4G 2026 in Hiroshima, so please reach out if you'd like to connect with us there!
         </p>
         <br />
       </div>
@@ -214,7 +209,7 @@ Enveloped in the hills of South West England, Bristol has developed an inimitabl
       </Card>
       <Card title="Our Conference Venue" color="secondary">
         <div>
-          FOSS4G 20257 will be hosted by the University of Bristol.
+          FOSS4G 2027 will be hosted by the University of Bristol.
         </div>
         <div class="flex flex-col gap-4 sm:w-[180px] sm:flex-row">
           <Button href="https://www.google.com/maps/dir/?api=1&destination=51.4561909%2C-2.6071939" target="_blank"

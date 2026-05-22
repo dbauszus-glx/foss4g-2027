@@ -23,13 +23,13 @@
       description:
         'Conference sessions will be held at UoB Wills Memorial Building and the Chemistry Building.'
     },
-    {
-      days: 'Sat 22, Sun 23 Nov',
-      time: '09:00 - 17:00',
-      heading: 'Community Events',
-      description:
-        'Registration at the conference is not a prerequisite for participation in the Community Day (including Code Sprints). Participation in the Community Day is free of charge and we welcome all folks interested.'
-    }
+    // {
+    //   days: 'Sat 22, Sun 23 Nov',
+    //   time: '09:00 - 17:00',
+    //   heading: 'Community Events',
+    //   description:
+    //     'Registration at the conference is not a prerequisite for participation in the Community Day (including Code Sprints). Participation in the Community Day is free of charge and we welcome all folks interested.'
+    // }
   ];
 </script>
 
