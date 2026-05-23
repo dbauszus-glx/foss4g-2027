@@ -9,7 +9,7 @@ export default {
     name: "Paul Wittle",
     title: "Conference Co-Chair",
     photo: () => import("$images/team/paul_w.jpg?enhanced"),
-    bio: "Paul is a geospatial web developer for Dorset Council. He studied Environmental Science at undergraduate level and found a love for all things geospatial whilst working a placement at Kew gardens. In later posts he worked within the transport industry before moving to the south coast.  Paul has been involved with organising local FOSS4G events and code sprints with the local OSGeo chapter for the past few years and has experience running events including pyrotechnic shows.<br/><a href='https://www.linkedin.com/in/dennis-bauszus-45b55760/' target=_blank>LinkedIn</a><br/><a href='https://bsky.app/profile/dbauszus.bsky.social' target=_blank>BlueSky</a>"
+    bio: "Paul is a geospatial web developer for Dorset Council. He studied Environmental Science at undergraduate level and found a love for all things geospatial whilst working a placement at Kew gardens. In later posts he worked within the transport industry before moving to the south coast.  Paul has been involved with organising local FOSS4G events and code sprints with the local OSGeo chapter for the past few years and has experience running events including pyrotechnic shows.<br/><a href='https://www.linkedin.com/in/paul-wittle-70218225/' target=_blank>LinkedIn</a>"
   },
   illya_s: {
     name: "Illya Sparkes-Santos",
