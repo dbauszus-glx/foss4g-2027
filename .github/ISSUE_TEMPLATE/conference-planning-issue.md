@@ -2,7 +2,7 @@
 name: Conference Planning Issue
 about: These are issues for the conference planning project
 title: ''
-labels: ''
+labels: Conference Planning
 assignees: ''
 type: Task
 
