@@ -1,5 +1,5 @@
 ---
-name: Conference Tickets
+name: Conference Planning Issue
 about: These are issues for the conference planning project
 title: ''
 labels: ''
