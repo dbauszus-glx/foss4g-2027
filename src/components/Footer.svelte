@@ -37,10 +37,7 @@
         </Link>
         <div class="text-md pt-8 uppercase">Follow Us</div>
         <div class=" flex space-x-2 text-2xl uppercase">
-          <!-- <Link href="https://www.facebook.com/foss4g2025/"
-            ><span class="icon-[uil--facebook] block"></span></Link
-          > -->
-          <Link href="https://www.linkedin.com/company/foss4g2025/"
+          <Link href="https://www.linkedin.com/showcase/foss4g2027/"
             ><span class="icon-[uil--linkedin] block"></span></Link
           >
           <Link href="https://www.youtube.com/c/FOSS4G"
