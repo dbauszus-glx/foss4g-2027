@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Foss4g2025Logo from '$images/svg/Landing-Logo.svg?raw';
+  import Foss4g2027Logo from '$images/svg/foss4g-2027-bw-map.svg?raw';
   import Foss4g2026Logo from '$images/foss4g-2026.png?enhanced';
   import Foss4g2025Photo from '$images/foss4g-2025-group-photo.jpg?enhanced';
   import TicketOptions from '$components/TicketOptions.svelte';
@@ -58,12 +58,10 @@
       class="hero-content bg-secondary relative w-full flex-col rounded-4xl px-6 py-8 sm:min-h-[500px] sm:px-10 sm:py-12"
     >
       <div
-        class="[&_path]:!fill-primary absolute right-0 bottom-0 -z-10 h-72 w-72 sm:h-96 sm:w-96 sm:pr-8 sm:pb-8 [&_svg]:max-h-72 [&_svg]:max-w-72 [&_svg]:sm:max-h-96 [&_svg]:sm:max-w-96"
+        style="opacity:0.6; bottom: 1em;"
+        class="[&_path]:!fill-primary absolute right-0 -z-10 h-72 w-72 sm:h-96 sm:w-96 sm:pr-8 sm:pb-8 [&_svg]:max-h-72 [&_svg]:max-w-72 [&_svg]:sm:max-h-96 [&_svg]:sm:max-w-96"
       >
-        <!-- {@html Foss4g2025Logo} -->
-        <div
-          class="to-secondary/90 from-secondary/30 absolute inset-0 rounded-4xl bg-gradient-to-b sm:from-transparent"
-        ></div>
+        {@html Foss4g2027Logo}
       </div>
       <div
         class="flex w-full flex-shrink flex-col justify-between font-serif text-sm sm:flex-row sm:space-y-4"
