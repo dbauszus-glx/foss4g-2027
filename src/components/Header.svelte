@@ -39,10 +39,10 @@
         label: 'Organisers',
         url: '/organisers'
       },
-      // {
-      //   label: 'Our Logo',
-      //   url: '/about/logo'
-      // },
+      {
+        label: 'Our Logo',
+        url: '/about/logo'
+      },
       // {
       //   label: 'Volunteering',
       //   url: '/attend/volunteering'
