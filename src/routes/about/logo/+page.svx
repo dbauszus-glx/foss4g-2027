@@ -16,5 +16,15 @@ title: About our Logo
 
 <div class="flex flex-col items-center my-8">
   <img src={LogoSrc} alt="FOSS4G 2027 Logo" class="max-w-[420px]" />
-  <div class="mt-2 text-sm text-gray-500 italic">"Our Logo" by Andy Council</div>
+  <div class="mt-2 text-sm text-gray-500 italic">"Bristol UK!" by <Link href="https://www.andycouncil.co.uk/" target="_blank">Andy Council</Link></div>
 </div>
+
+We decided to commision a local artist with the creation of our logo for FOSS4G 2027.
+
+Andy's design is a map of the UK (England, Scotland, Wales and Northern Ireland) made up of landmarks from Bristol, your FOSS4G 2027 host city.
+
+Some of the landmarks included in the design are: <Link href="https://en.wikipedia.org/wiki/Clifton_Suspension_Bridge" target="_blank">Clifton Suspension Bridge</Link>, <Link href="https://en.wikipedia.org/wiki/SS_Great_Britain" target="_blank">SS <italic>Great Britain</italic></Link>, <Link href="https://en.wikipedia.org/wiki/Cabot_Tower,_Bristol" target="_blank">Cabot Tower</Link>, and <Link href="https://en.wikipedia.org/wiki/Bristol_Cathedral" target="_blank">Bristol Cathedral</Link>.
+
+An old crane is also featured representing Bristol being a historic port city. The hot air ballons represent the famous <Link href="https://en.wikipedia.org/wiki/Bristol_International_Balloon_Fiesta" target="_blank">Bristol International Balloon Fiesta</Link>.
+
+The bright colours and lettering are a nod to the Bristol street art scene which <Link href="https://en.wikipedia.org/wiki/Banksy" target="_blank">Banksy</Link> emerged from.
