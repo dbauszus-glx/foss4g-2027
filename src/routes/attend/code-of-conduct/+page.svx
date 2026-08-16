@@ -89,4 +89,4 @@ The Berlin Code of Conduct is distributed under a Creative Commons Attribution-S
 
 ## Contact Information
 
-You can email the FOSS4G organizing team with any concerns at [chair@foss4g.org](mailto:chair@foss4g.org).
+You can email the FOSS4G organizing team with any concerns at [info.2027@foss4g.org](mailto:info.2027@foss4g.org).
