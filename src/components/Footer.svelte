@@ -16,6 +16,7 @@
             <li><Link href="/program/outline">Program</Link></li> -->
             <li><Link href="/sponsorship">Sponsorship</Link></li>
             <li><Link href="/organisers">Organisers</Link></li>
+            <li><a href="mailto:info.2027@foss4g.org">info.2027@foss4g.org</a></li>
           </ul>
           <ul class="space-y-3">
             <!-- <li><Link href="/attend/terms-and-conditions">Terms &amp; Conditions</Link></li> -->
