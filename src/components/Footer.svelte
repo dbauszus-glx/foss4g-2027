@@ -18,7 +18,7 @@
             <li><Link href="/organisers">Organisers</Link></li>
           </ul>
           <ul class="space-y-3">
-            <li><Link href="/attend/terms-and-conditions">Terms &amp; Conditions</Link></li>
+            <!-- <li><Link href="/attend/terms-and-conditions">Terms &amp; Conditions</Link></li> -->
             <li><Link href="/attend/code-of-conduct">Code Of Conduct</Link></li>
             <li><Link href="/attend/privacy-policy">Privacy Policy</Link></li>
           </ul>

@@ -55,10 +55,10 @@
         label: 'Privacy Policy',
         url: '/attend/privacy-policy'
       },
-      {
-        label: 'Terms and Conditions',
-        url: '/attend/terms-and-conditions'
-      },
+      // {
+      //   label: 'Terms and Conditions',
+      //   url: '/attend/terms-and-conditions'
+      // },
       {
         label: 'Sponsorship',
         url: '/sponsorship'

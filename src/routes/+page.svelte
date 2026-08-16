@@ -239,7 +239,7 @@ Enveloped in the hills of South West England, Bristol has developed an inimitabl
         <p>
           FOSS4G 2026 will be held in Hiroshima, Japan, 30 August to 5 September, at the International Conference Center Hiroshima (ICCH).
           <br />
-          <Button href="https://foss4g.org/" target="_blank" class="mt-6 w-50">foss4g.org</Button>
+          <Button href="https://2026.foss4g.org/" target="_blank" class="mt-6 w-50">2026.foss4g.org</Button>
         </p>
       </div>
       <div class="items-cente flex flex-1 flex-grow">
