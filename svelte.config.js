@@ -16,9 +16,6 @@ const config = {
   extensions: ['.svelte', '.svx'],
   kit: {
     adapter: adapter(),
-    paths: {
-      base: '/foss4g-2027'
-    },
     prerender: {
       handleHttpError: 'warn'
     },
