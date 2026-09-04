@@ -43,10 +43,10 @@
         label: 'Our Logo',
         url: '/about/logo'
       },
-      // {
-      //   label: 'Volunteering',
-      //   url: '/attend/volunteering'
-      // },
+      {
+        label: 'Volunteering',
+        url: '/attend/volunteering'
+      },
       {
         label: 'Code of Conduct',
         url: '/attend/code-of-conduct'

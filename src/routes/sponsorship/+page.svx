@@ -14,7 +14,7 @@ title: Sponsorship
 
 <Heading>Information for Sponsors</Heading>
 
-![SPONSOR-HEADER]($images/sponsor-header.jpg)
+![SPONSOR-EXHIBITION]($images/sponsor-exhibition.jpg)
 
 <GiantButton href="https://drive.google.com/file/d/13Hgj8OvLAiZRvmLjh31TmUyO5sG7trJg/view">Access the Sponsorship Prospectus</GiantButton>
 
@@ -59,3 +59,19 @@ Sponsorship has allowed us to lower the ticket prices for students and community
 The success of our regional FOSS4G event in Leeds 2025 illustrated the need for a longer-term governance structure for the UK's geospatial community. [OSGeo:UK](https://uk.osgeo.org/) was formed as a  not-for-profit entity to support the long-term sustainability of our community in the region and is recognised as a local chapter of the OSGeo foundation.
 
 A dedicated and experienced conference committee has been established to focus on the delivery of a successful FOSS4G 2027 in Bristol.
+
+## Sponsorship packages
+
+|           Benefits            |   Diamond   |  Platinum   |    Gold     |   Silver    |   Bronze    |
+| :----------------------------: | :---------: | :---------: | :---------: | :---------: | :---------: |
+|          Contribution          |   £25,000   |   £15,000   |   £10,000   |   £5,000    |   £3,000    |
+|       Plenary presentation     |      ✓      |     \-      |     \-      |     \-      |     \-      |
+|         Sponsored track        |      ✓      |      ✓      |     \-      |     \-      |     \-      |
+|         Logo on T-shirt        |      ✓      |      ✓      |     \-      |     \-      |     \-      |
+|      Slide on rotating deck    |      ✓      |      ✓      |      ✓      |     \-      |     \-      |
+|         Logo on website        |      ✓      |      ✓      |      ✓      |      ✓      |      ✓      |
+|  Conference passes (incl. B2B) |      6      |      4      |      3      |      2      |      1      |
+|         Exhibition space       |     XL      |      L      |      M      |      S      |     \-      |
+|        Gala dinner tickets     |      6      |      4      |      3      |      2      |      1      |
+
+If you have any questions or suggestions, email us at [sponsors.2027@foss4g.org](mailto:sponsorship@foss4g.org).
