@@ -1,7 +1,7 @@
 <script lang="ts">
   import Foss4g2027Logo from '$images/svg/foss4g-2027-bw-map.svg?raw';
   import Foss4g2026Logo from '$images/foss4g-2026.png?enhanced';
-  import Foss4g2025Photo from '$images/foss4g-2025-group-photo.jpg?enhanced';
+  import foss4g27closing from '$images/foss4g27-closing.jpg?enhanced';
   import TicketOptions from '$components/TicketOptions.svelte';
   import Countdown from '$components/Countdown.svelte';
   import Keynotes from '$components/Keynotes.svelte';
@@ -181,6 +181,14 @@
         <p>
           FOSS4G 2026 in Hiroshima has concluded. We want to thank all of the sponsors, speakers, volunteers, delegates, and the amazing local organising committee for making this event a success.
         </p>
+
+        <br />
+        <ul class="list-disc pl-4">
+          <li><strong>828</strong> people attended from <strong>65</strong> countries.</li>
+          <li><strong>28</strong> Travel Grant recipients from <strong>16</strong> countries.</li>
+          <li><strong>53</strong> Workshops.</li>
+          <li><strong>348</strong> Presentations.</li>
+        </ul>
       </div>
     </Card>
 
@@ -214,8 +222,8 @@ Enveloped in the hills of South West England, Bristol has developed an inimitabl
 
   <div>
     <enhanced:img
-      src={Foss4g2025Photo}
-      alt="FOSS4G 2025 Group Photo"
+      src={foss4g27closing}
+      alt="FOSS4G 2026 Closing Group Photo"
       class="mb-8 w-full rounded-4xl"
     />
   </div>
