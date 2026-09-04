@@ -63,7 +63,7 @@ def build(gdal_path: str = "gdal"):
         cmd = [
             f"{gdal_path} vector pipeline --progress",
             f'read --input "{BUILDINGS_EXTRACT}"',
-            # negative buffer 0.00002 deg (aprox 2m)
+            # negative buffer 0.00002 deg (approx 2m)
             "geom buffer --distance=-0.00002 --endcap-style=flat --join-style=mitre",
             'filter --where "OGR_GEOMETRY IS NOT NULL"',
             "geom set-type --multi",

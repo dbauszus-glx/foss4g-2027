@@ -19,7 +19,7 @@ title: About our Logo
   <div class="mt-2 text-sm text-gray-500 italic">"Bristol UK!" by <Link href="https://www.andycouncil.co.uk/" target="_blank">Andy Council</Link></div>
 </div>
 
-We decided to commision a local artist with the creation of our logo for FOSS4G 2027.
+We decided to commission a local artist with the creation of our logo for FOSS4G 2027.
 
 Andy's design is a map of the UK (England, Scotland, Wales and Northern Ireland) made up of landmarks from Bristol, your FOSS4G 2027 host city.
 

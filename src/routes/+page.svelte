@@ -23,7 +23,7 @@
 </svelte:head>
 
 <div class="bg-primary/90 mb-6 flex items-center gap-4 rounded-xl px-4 py-3 text-white">
-  <a href="https://2026.foss4g.org/en/" class="hover:underline">FOSS4G 2026</a> will be in Hiroshima, Japan! 🗾
+  <a href="https://2026.foss4g.org/en/" class="hover:underline">FOSS4G 2026</a>in Hiroshima, Japan has concluded! 🗾
 </div>
 <!-- 
 {#if News.length > 0}
@@ -159,7 +159,7 @@
     >
       <div>
         <p>
-          At $50 NZD per workshop this is the most cost efective and valuable training you will ever
+          At $50 NZD per workshop this is the most cost effective and valuable training you will ever
           undertake!
         </p>
 
@@ -176,21 +176,11 @@
       </div>
     </Card> -->
 
-    <Card title="Thank you Auckland!" color="secondary">
+    <Card title="Thank you Hiroshima!" color="secondary">
       <div>
         <p>
-          FOSS4G 2025 in Auckland has concluded. We want to thank all of the sponsors, speakers, volunteers, delegates, and the amazing local organising committee for making this event a success.
+          FOSS4G 2026 in Hiroshima has concluded. We want to thank all of the sponsors, speakers, volunteers, delegates, and the amazing local organising committee for making this event a success.
         </p>
-        <h4>Presentation Videos</h4>
-        <p>
-          Please visit the <Link href="https://www.youtube.com/@foss4g-sotm-oceania"
-            target="_blank">FOSS4G Oceania YouTube Channel</Link> to watch recordings of FOSS4G 2025 presentations, workshops, and keynotes.
-        </p>
-        <h4>Kon'nichiwa, Hiroshima!</h4>
-        <p>
-          The next global FOSS4G conference will be held in Hiroshima, Japan, 30 August to 5 September, at the International Conference Center Hiroshima (ICCH). We look forward to seeing you there for <Link href="https://foss4g.org/" target="_blank">FOSS4G 2026</Link>! A few people from the Bristol LOC will be attending FOSS4G 2026 in Hiroshima, so please reach out if you'd like to connect with us there!
-        </p>
-        <br />
       </div>
     </Card>
 
@@ -228,24 +218,6 @@ Enveloped in the hills of South West England, Bristol has developed an inimitabl
       alt="FOSS4G 2025 Group Photo"
       class="mb-8 w-full rounded-4xl"
     />
-  </div>
-
-  <div>
-    <Heading size="sm">FOSS4G 2026</Heading>
-    <div
-      class="border-secondary mb-8 flex flex-col-reverse gap-4 rounded-4xl border-1 p-4 text-lg sm:flex-row sm:px-8 sm:py-8"
-    >
-      <div class="flex flex-1 flex-grow items-center">
-        <p>
-          FOSS4G 2026 will be held in Hiroshima, Japan, 30 August to 5 September, at the International Conference Center Hiroshima (ICCH).
-          <br />
-          <Button href="https://2026.foss4g.org/" target="_blank" class="mt-6 w-50">2026.foss4g.org</Button>
-        </p>
-      </div>
-      <div class="items-cente flex flex-1 flex-grow">
-        <enhanced:img src={Foss4g2026Logo} alt="FOSS4G 2025 Group Photo" class="p-4" />
-      </div>
-    </div>
   </div>
 
   <!-- <Heading>Keynote Speakers</Heading>

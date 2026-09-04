@@ -27,14 +27,21 @@
       </div>
       <div class="bg-secondary text-primary space-y-4 rounded-4xl p-6 sm:p-12">
         <div class="text-md mb-2 uppercase">Stay Updated</div>
-        <div class="text-sm">Subscribe for event updates</div>
         <Link
           href="https://mailchi.mp/foss4g/mailing-list"
           target="_blank"
           class="btn btn-block btn-sm bg-primary hover:bg-success hover:text-primary w-auto min-w-fit rounded-full border-none px-8 py-6 text-sm font-light whitespace-nowrap text-white shadow-none transition-all duration-200"
         >
           Join our Mailing List
-          <span class="icon-[lucide--arrow-up-right] block"></span>
+          <span class="icon-[simple-icons--mailchimp] block"></span>
+        </Link>
+        <Link
+          href="https://app.element.io/#/room/#foss4g:osgeo.org"
+          target="_blank"
+          class="btn btn-block btn-sm bg-primary hover:bg-success hover:text-primary w-auto min-w-fit rounded-full border-none px-8 py-6 text-sm font-light whitespace-nowrap text-white shadow-none transition-all duration-200"
+        >
+          Join the #foss4g:osgeo.org chat
+          <span class="icon-[tabler--brand-matrix] block"></span>
         </Link>
         <div class="text-md pt-8 uppercase">Follow Us</div>
         <div class=" flex space-x-2 text-2xl uppercase">
