@@ -159,7 +159,7 @@
     >
       <div>
         <p>
-          At $50 NZD per workshop this is the most cost efective and valuable training you will ever
+          At $50 NZD per workshop this is the most cost effective and valuable training you will ever
           undertake!
         </p>
 
