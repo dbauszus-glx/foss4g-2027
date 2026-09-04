@@ -13,7 +13,7 @@ title: Volunteering
 
 <Heading>Volunteering</Heading>
 
-![Auckland]($images/group-photo.jpg)
+![Volunteers]($images/volunteers.jpg)
 
 ## Who can volunteer?
 Anyone who would like to attend can volunteer!
@@ -37,4 +37,3 @@ We have a range of perks to offer you for your help during our conference includ
 ## Want to volunteer?
 
 Please join the [WhatsApp group](https://chat.whatsapp.com/I7NAklQzy76CMS6P4bnEVz) and we will share more information in due course. 
-
