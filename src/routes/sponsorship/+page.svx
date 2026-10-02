@@ -16,11 +16,11 @@ title: Sponsorship
 
 ![SPONSOR-EXHIBITION]($images/sponsor-exhibition.jpg)
 
-<GiantButton href="https://drive.google.com/file/d/13Hgj8OvLAiZRvmLjh31TmUyO5sG7trJg/view">Access the Sponsorship Prospectus</GiantButton>
+<GiantButton href="/docs/sponsor-prospectus.pdf">Access the Sponsorship Prospectus</GiantButton>
 
 FOSS4G is a global event that brings together the open geospatial community. FOSS4G stands for 'Free and Open Source Software for Geospatial' and the name has been used since 2006 for international and regional conferences of the [Open Source Geospatial Foundation (OSGeo)](http://osgeo.org/) and its chapters. OSGeo supports the development and adoption of open source geospatial technology. FOSS4G is part of the broader [open source software philosophy](https://opensource.com/resources/what-open-source).
 
-In 2027, the global FOSS4G conference is being held in Bristol. Please contact our dedicated sponsor support team sponsors.2027@foss4g.org if you'd like to support this event.
+In 2027, the global FOSS4G conference is being held in Bristol. Please contact our dedicated sponsor support team sponsors@foss4g.org if you'd like to support this event.
 
 ![SS_Great_Britain]($images/ss-great-britain.jpg)
 
@@ -74,4 +74,4 @@ A dedicated and experienced conference committee has been established to focus o
 |         Exhibition space       |     XL      |      L      |      M      |      S      |     \-      |
 |        Gala dinner tickets     |      6      |      4      |      3      |      2      |      1      |
 
-If you have any questions or suggestions, email us at [sponsors.2027@foss4g.org](mailto:sponsorship@foss4g.org).
+If you have any questions or suggestions, email us at [sponsors@foss4g.org](mailto:sponsorship@foss4g.org).
