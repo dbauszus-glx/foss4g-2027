@@ -29,4 +29,10 @@ export default {
     photo: () => import("$images/team/jeremy_m.jpg?enhanced"),
     bio: "Jeremy is an Honorary Professor at University College London. For 10 years till 2025 he was Chief Geospatial Scientist at Ordnance Survey, and before that an academic at UCL and the University of Nottingham. In the latter post he co-chaired FOSS4G in Nottingham in September 2013, focused on local venue liaison as well as chairing the AGI Conference in the same Maptember week. He has many years experience in open data (OSM), standards (OGC) and software (OSGeo).<br/><a href='https://www.linkedin.com/in/jeremymorley/' target=_blank>LinkedIn</a>"
   },
+  nick_b: {
+    name: "Nick Bearman",
+    title: "Local Organising Committee",
+    photo: () => import("$images/team/nick_b.jpg?enhanced"),
+    bio: "Nick is a GIS Trainer and Consultant, and Visiting Research Fellow at University College London. He delivers GIS training sessions and GIS consultancy for a variety of clients, primarily focused in the academic and not for profit sectors. With a PhD from UEA and numerous previous academic roles at UCL, Liverpool and Exeter universities, he bridges the academic, commercial and not for profit GIS worlds. He has also written a wide range of materials, articles and two books aiming to get more people involved in GIS. As Chair of OSGeo:UK he leads the UK Local Chapter of OSGeo and regularly helps organise FOSS4G:UK conferences.<br/><a href='https://www.linkedin.com/in/nickbearman/' target=_blank>LinkedIn</a>"
+  },
 };
