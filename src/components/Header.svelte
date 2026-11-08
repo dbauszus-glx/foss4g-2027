@@ -36,6 +36,10 @@
         url: '/about/foss4g'
       },
       {
+        label: 'Visit Bristol',
+        url: '/about/visit-bristol'
+      },
+      {
         label: 'Organisers',
         url: '/organisers'
       },
@@ -54,14 +58,25 @@
       {
         label: 'Privacy Policy',
         url: '/attend/privacy-policy'
-      },
+      }
       // {
       //   label: 'Terms and Conditions',
       //   url: '/attend/terms-and-conditions'
       // },
+    ]
+  };
+
+  const Sponsorship = {
+    label: 'Sponsorship',
+    url: '/Sponsorship',
+    subMenu: [
       {
-        label: 'Sponsorship',
+        label: 'Sponsorship Opportunities',
         url: '/sponsorship'
+      },
+      {
+        label: 'Adopt-a-ticket',
+        url: '/sponsorship/adopt-a-ticket'
       }
     ]
   };
@@ -75,41 +90,45 @@
         url: '/attend/register'
       },
       {
-        label: 'Merchandise',
-        url: '/attend/merch'
+        label: 'UK Visa Information',
+        url: '/attend/uk-visa-information'
       },
       {
-        label: 'Conference QField App',
-        url: '/attend/app'
-      },
-      {
-        label: 'Entry into New Zealand',
-        url: '/attend/travelling-to-nz'
-      },
-      {
-        label: 'Transport Information',
-        url: '/attend/transport'
-      },
-      {
-        label: 'Conference Venue',
-        url: '/attend/conference-venue'
-      },
-      {
-        label: 'Travel Guide',
-        url: '/attend/nz-travel-guide'
-      },
-      {
-        label: 'Adventure Guide',
-        url: '/attend/nz-adventures'
-      },
-      {
-        label: 'Accommodation',
-        url: '/attend/accommodation'
-      },
-      {
-        label: 'Travel Grant Program',
-        url: '/attend/travel-grant-program'
+        label: 'Childcare',
+        url: '/attend/childcare'
       }
+      // {
+      //   label: 'Merchandise',
+      //   url: '/attend/merch'
+      // },
+      // {
+      //   label: 'Conference QField App',
+      //   url: '/attend/app'
+      // },
+      // {
+      //   label: 'Transport Information',
+      //   url: '/attend/transport'
+      // },
+      // {
+      //   label: 'Conference Venue',
+      //   url: '/attend/conference-venue'
+      // },
+      // {
+      //   label: 'Travel Guide',
+      //   url: '/attend/nz-travel-guide'
+      // },
+      // {
+      //   label: 'Adventure Guide',
+      //   url: '/attend/nz-adventures'
+      // },
+      // {
+      //   label: 'Accommodation',
+      //   url: '/attend/accommodation'
+      // },
+      // {
+      //   label: 'Travel Grant Program',
+      //   url: '/attend/travel-grant-program'
+      // }
     ]
   };
 
@@ -118,57 +137,57 @@
     url: '/program/outline',
     subMenu: [
       {
-        label: 'Schedule',
-        url: '/program/schedule'
-      },
-      {
-        label: 'Workshops',
-        url: '/program/workshops'
-      },
-      {
         label: 'Outline',
         url: '/program/outline'
       },
       {
-        label: 'Events',
-        url: '/program/events'
-      },
-      {
-        label: '- Movie Screening',
-        url: '/program/movie-screening'
-      },
-      {
-        label: '- B2B Event',
-        url: '/program/b2b-event'
-      },
-      {
-        label: '- Ice Breaker',
-        url: '/program/ice-breaker'
-      },
-      {
-        label: '- Travel Grant Breakfast',
-        url: '/program/travel-grant-breakfast'
-      },
-      {
-        label: '- Gala Dinner',
+        label: 'Gala Dinner',
         url: '/program/gala-dinner'
-      },
-      {
-        label: '- GeoChicas',
-        url: '/program/geochicas'
-      },
-      {
-        label: '- Rangitoto Day Trip',
-        url: '/program/rangitoto'
-      },
-      {
-        label: '- Community Events and Code Sprints',
-        url: '/program/community-day'
-      },
-      {
-        label: '- Birds of a Feather',
-        url: '/program/bof'
       }
+      // {
+      //   label: 'Schedule',
+      //   url: '/program/schedule'
+      // },
+      // {
+      //   label: 'Workshops',
+      //   url: '/program/workshops'
+      // },
+      // {
+      //   label: 'Events',
+      //   url: '/program/events'
+      // },
+      // {
+      //   label: '- Movie Screening',
+      //   url: '/program/movie-screening'
+      // },
+      // {
+      //   label: '- B2B Event',
+      //   url: '/program/b2b-event'
+      // },
+      // {
+      //   label: '- Ice Breaker',
+      //   url: '/program/ice-breaker'
+      // },
+      // {
+      //   label: '- Travel Grant Breakfast',
+      //   url: '/program/travel-grant-breakfast'
+      // },
+      // {
+      //   label: '- GeoChicas',
+      //   url: '/program/geochicas'
+      // },
+      // {
+      //   label: '- Rangitoto Day Trip',
+      //   url: '/program/rangitoto'
+      // },
+      // {
+      //   label: '- Community Events and Code Sprints',
+      //   url: '/program/community-day'
+      // },
+      // {
+      //   label: '- Birds of a Feather',
+      //   url: '/program/bof'
+      // }
     ]
   };
 
@@ -177,7 +196,7 @@
     url: '/program/schedule'
   };
 
-  let menuItems = [About];
+  let menuItems = [About, Attend, Programme, Sponsorship];
 
   // Helper function to check if current page matches a menu item
   function isMenuItemActive(menuItem: (typeof menuItems)[0]) {
@@ -204,7 +223,7 @@
   class="navbar border-primary/10 sticky top-0 z-20 h-16 rounded-lg border-b-1 bg-white px-4 py-2 sm:relative sm:top-auto sm:h-22 sm:border-none sm:py-6"
 >
   <div class="navbar-start z-20 my-4 w-auto">
-    <Link href="/"><img alt="FOSS4G Logo" class="-ml-3.5 max-w-[220px]" src={svgLogo}></Link>
+    <Link href="/"><img alt="FOSS4G Logo" class="-ml-3.5 max-w-[220px]" src={svgLogo} /></Link>
   </div>
 
   <div class="navbar-end flex-1 overflow-hidden sm:overflow-visible">
